@@ -1,0 +1,9 @@
+﻿@model Dictionary<string, string>
+
+<h2>Load Shedding Explanations</h2>
+
+@foreach (var kvp in Model)
+{
+    <h4>@kvp.Key</h4>
+    <p>@kvp.Value</p>
+}
